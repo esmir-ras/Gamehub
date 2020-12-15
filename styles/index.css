@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  src: url(url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+}
+
+/* Body */
+body {
+  background-color: #062a53;
+  background-image: url(/images/Gamehub\ Background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: auto;
+}
+/* Navigation */
+nav {
+  background-color: #1d2025;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  padding: 2em;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Header */
+.logo {
+  width: 15em;
+  height: auto;
+  display: flex;
+  margin: auto;
+}
