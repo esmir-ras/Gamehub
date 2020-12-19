@@ -6,18 +6,15 @@
 /* Body */
 body {
   background-color: #062a53;
-  background-image: url(/images/Gamehub\ Background.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: auto;
+  margin: 0em;
 }
 /* Navigation */
+
 nav {
   background-color: #1d2025;
   color: rgb(255, 255, 255);
   text-align: center;
+  width: auto;
 }
 nav li {
   display: inline-block;
@@ -26,15 +23,99 @@ nav li {
 }
 
 nav a {
-  color: #000;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 10px;
 }
 
 /* Header */
-.logo {
-  width: 15em;
-  height: auto;
-  display: flex;
-  margin: auto;
+#h1new h1 {
+  color: white;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  
+  
 }
+
+.logo {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#container img {
+  width: 10%;
+  display: flex;
+  
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid gray;
+  
+}
+
+
+
+h1 {
+  text-align: center;
+}
+
+#description {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#description p  {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  color: white;
+}
+
+#buynow-button {
+  display: flex;
+  justify-content: center;
+}
+
+#buynow-button button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+
+
+#preorder img {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  
+  
+}
+/* Footer */
+
+footer {
+  text-align: center;
+  background-color: white;
+  color: #8d99ae;
+  
+  
+}
+
+.content-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  
+  overflow: hidden;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
