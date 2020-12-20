@@ -4,26 +4,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gamehub</title>
     <link rel="stylesheet" href="styles/index.css" />
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body background="images/Gamehub Background.jpg" class="background">
-    <nav>
-      <ul>
-        <a href="#home"><li>Home</li></a>
-        <a href="store"><li>Store</li></a>
-        <a href="#contact"><li>Contact</li></a>
-      </ul>
-    </nav>
-
+  <body background="images/Gamehub Background.jpg"></body>
+     <!-- Navbar items -->
+     <div id="navlist"> 
+      <a href="#">Home</a> 
+      <a href="#">Our Products</a>  
+      <a href="#">Contact Us</a> 
+     
+        
+      <!-- seach bar right align -->
+      <div class="search"> 
+          <form action="#"> 
+              <input type="text"
+                  placeholder="Search for"
+                  name="search"> 
+              <button> 
+                  <i class="fa fa-search"
+                      style="font-size: 18px;"> 
+                  </i> 
+              </button> 
+          </form> 
+      </div> 
+  </div> 
+ <!--Header Start-->
     <header>
       <img src="images/Gamehub-Logo.png" class="Logo" alt="Gamehub-Logo" />
     </header>
+    <main class="maintop">
+      <div>
+        <i class="fas fa-user-plus"></i>
+      </div>
+    
     <div id="preorder">
       <img src="images/preorder.jpg" alt="">
     </div>
     <div id="h1new">
       <h1>New Games</h1>
     </div>
-    
+    <!--Section with Products-->
       <section class="products">
         <div id="container">
           <img src="images/mk11.jpg" alt="" />
@@ -36,10 +57,9 @@
       
     
     <div id="description">
-    <p>OK</p>
-    
-    <p>OK</p> 
-    <p>OK</p> 
+      <p>30 USD</p>
+      <p>30 USD</p>
+      <p>30 USD</p> 
     </div>
 
     <div id="buynow-button">
@@ -62,11 +82,15 @@
     
   
   <div id="description">
-  <p>OK</p>
-  <p>OK</p>
-  <p>OK</p>
+    <p>30 USD</p>
+    <p>30 USD</p>
+    <p>30 USD</p>
   </div>
-   
+  <div id="buynow-button">
+    <button>Buy Now</button>
+    <button>Buy Now</button>
+    <button>Buy Now</button>
+  </div>
   </div>
   <section class="products">
     <div id="container">
@@ -81,12 +105,25 @@
   
 
 <div id="description">
-<p>OK</p>
-<p>OK</p>
-<p>OK</p>
+<p>30 USD</p>
+<p>30 USD</p>
+<p>30 USD</p>
 </div>
+<div id="buynow-button">
+  <button>Buy Now</button>
+  <button>Buy Now</button>
+  <button>Buy Now</button>
+</div>
+</main>
+<!-- New Section with Pre order Games-->
+<div class="addgames">
  
+  <img src="images/wp5702150-anime-beautiful-vaporwave-wallpapers (2).jpg" alt="">
+  <button>Add Games to Store</button>
+</div>
 
+
+ 
     <!-- // Footer & contact info -->
     <footer>
       <div class="content-wrap">
@@ -95,7 +132,7 @@
           <!-- Social media and contact links.-->
           <div class="contact-info">
               <a href=>email@example.com</a>
-              <a href=>gamehub.com</a>
+            
               <a href=>Twitter</a>
               <a href=>Facebook</a>
           </div>

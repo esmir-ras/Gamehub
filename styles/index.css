@@ -10,22 +10,62 @@ body {
 }
 /* Navigation */
 
-nav {
-  background-color: #1d2025;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  width: auto;
-}
-nav li {
-  display: inline-block;
+ /* styling navlist */ 
+ #navlist { 
+  background-color: #191e22; 
+  position: fixed; 
+  width: 100%; 
+  
+} 
+    
+/* styling navlist anchor element */ 
+#navlist a { 
+  float:left; 
+  display: block; 
+  color: #f2f2f2; 
+  text-align: center; 
+  padding: 12px; 
+  text-decoration: none; 
+  font-size: 15px; 
   font-family: "Barlow Semi Condensed", sans-serif;
-  padding: 2em;
-}
+} 
 
-nav a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  padding: 10px;
+.navlist-right{ 
+  float:right; 
+} 
+
+/* hover effect of navlist anchor element */ 
+#navlist a:hover { 
+  background-color: #ddd; 
+  color: black; 
+} 
+    
+/* styling search bar */ 
+.search input[type=text]{ 
+  width:300px; 
+  height:25px; 
+  border-radius:25px; 
+  border: none; 
+  align-items: center;
+  margin-left: 360px;
+  
+} 
+    
+.search{ 
+  float:center; 
+  margin:7px; 
+} 
+    
+.search button{ 
+  background-color: #191e22; 
+  color: #f2f2f2; 
+  float: right; 
+  padding: 5px 10px; 
+  margin-right: 16px; 
+  font-size: 12px; 
+  border: none; 
+  cursor: pointer; 
+}  
 }
 
 /* Header */
@@ -62,6 +102,8 @@ nav a {
 
 h1 {
   text-align: center;
+  font-size: 60px; 
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 #description {
@@ -99,6 +141,23 @@ h1 {
   
   
 }
+
+/*add games*/
+
+.addgames button {
+  display: flex;
+  margin-left: 600px;
+  font-size: 30px; 
+  font-family: "Barlow Semi Condensed", sans-serif;
+  
+  
+}
+
+.addgames img {
+  margin-left: 250px;
+  
+}
+
 /* Footer */
 
 footer {
@@ -119,3 +178,11 @@ footer {
 .contact-info a {
   padding: 10px;
   display: inline-block;
+}
+
+
+  
+
+  
+  
+ 
