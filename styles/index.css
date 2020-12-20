@@ -144,19 +144,24 @@ h1 {
 
 /*add games*/
 
-.addgames button {
-  display: flex;
-  margin-left: 600px;
+.addgames img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.preorderbutton {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 30px; 
   font-family: "Barlow Semi Condensed", sans-serif;
   
   
 }
 
-.addgames img {
-  margin-left: 250px;
-  
-}
+
 
 /* Footer */
 
